@@ -37,14 +37,12 @@ run_task() {
 
 echo -e "${PURPLE}"
 cat << "EOF"
- 888    d8P         d8888 888      8888888      8888888888  8888888888     888          888888b.            
- 888   d8P         d88888 888        888        888         888            888          888  "88b           
- 888  d8P         d88P888 888        888        888         888            888          888  .88P           
- 888d88K         d88P 888 888        888        8888888     8888888        888          8888888K.           
- 8888888b       d88P  888 888        888        888         888            888          888  "Y88b          
- 888  Y88b     d88P   888 888        888        888         888            888          888    888          
- 888   Y88b   d8888888888 888        888        888     d8b 888        d8b 888      d8b 888   d88P d8b      
- 888    Y88b d88P     888 88888888 8888888      888     Y8P 8888888888 Y8P 88888888 Y8P 8888888P"  Y8P
+ dP     dP  .d888888  dP        dP    .d88888b   88888888b d888888P dP     dP  888888ba     
+ 88   .d8' d8'    88  88        88    88.    "'  88           88    88     88  88    `8b    
+ 88aaa8P'  88aaaaa88a 88        88    `Y88888b. a88aaaa       88    88     88 a88aaaa8P'    
+ 88   `8b. 88     88  88        88          `8b  88           88    88     88  88           
+ 88     88 88     88  88        88    d8'   .8P  88           88    Y8.   .8P  88           
+ dP     dP 88     88  88888888P dP     Y88888P   88888888P    dP    `Y88888P'  dP
 EOF
 echo -e "${NC}"
 
@@ -124,7 +122,7 @@ fi
 if ! grep -q "PROMPT='╭─" /root/.zshrc; then
     cat >> /root/.zshrc << EOF
 
-#style prompt
+# Hack-style prompt
 PROMPT='╭─%F{purple}[%F{white}%n%F{purple}@%F{white}%m%F{purple}] - [%F{white}%~%F{purple}]
 ╰─%F{green}▶%F{cyan}▶%F{white}▶ %f'
 EOF
