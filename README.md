@@ -9,6 +9,7 @@ The script installs development tools, network utilities, and basic pentesting s
 Clone the repository or download the script, then run:
 
 ```bash
+git clone https://github.com/zhrom/kali-setup.git
 chmod +x kali-ready.sh
 sudo ./kali-ready.sh
 ```
