@@ -1,6 +1,6 @@
-# kali-felb
+# kali-setup
 
-kali-felb is a simple script for setting up a fresh Kali Linux (WSL) environment with common tools.
+kali-setup is a simple script for setting up a fresh Kali Linux (WSL) environment with common tools.
 
 The script installs development tools, network utilities, and basic pentesting software, along with some shell configuration (zsh, oh-my-zsh).
 
