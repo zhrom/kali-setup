@@ -10,6 +10,7 @@ Clone the repository or download the script, then run:
 
 ```bash
 git clone https://github.com/zhrom/kali-setup.git
+cd kali-setup
 chmod +x kali-ready.sh
 sudo ./kali-ready.sh
 ```
