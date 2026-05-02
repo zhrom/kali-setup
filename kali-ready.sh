@@ -122,7 +122,7 @@ fi
 if ! grep -q "PROMPT='╭─" /root/.zshrc; then
     cat >> /root/.zshrc << EOF
 
-# Hack-style prompt
+# style prompt
 PROMPT='╭─%F{purple}[%F{white}%n%F{purple}@%F{white}%m%F{purple}] - [%F{white}%~%F{purple}]
 ╰─%F{green}▶%F{cyan}▶%F{white}▶ %f'
 EOF
