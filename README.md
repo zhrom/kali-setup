@@ -15,6 +15,10 @@ cd kali-setup
 chmod +x kali-ready.sh
 sudo ./kali-ready.sh
 ```
+Or if you don't want to clone the repository, you can run the setup directly with this command:
+```bash
+sudo bash -c "$(curl -sSL https://raw.githubusercontent.com/zhrom/kali-setup/main/kali-ready.sh)"
+```
 
 ## What it installs
 
