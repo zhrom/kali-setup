@@ -1,4 +1,5 @@
 # kali-setup
+![Preview](preview.png)
 
 kali-setup is a simple script for setting up a fresh Kali Linux (WSL) environment with common tools.
 
