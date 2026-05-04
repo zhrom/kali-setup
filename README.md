@@ -7,7 +7,7 @@ The script installs development tools, network utilities, and basic pentesting s
 
 ## Installing
 
-Clone the repository or download the script, then run:
+Run:
 
 ```bash
 git clone https://github.com/zhrom/kali-setup.git
