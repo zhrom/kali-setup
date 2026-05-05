@@ -10,14 +10,14 @@ The script installs development tools, network utilities, and basic pentesting s
 Run:
 
 ```bash
-git clone https://github.com/zhrom/kaliWSL-setup.git
-cd kali-setup
+git clone https://github.com/zhrom/kali-linux-WSL-setup.git
+cd kali-linux-WSL-setup
 chmod +x kali-ready.sh
 sudo ./kali-ready.sh
 ```
 Or if you don't want to clone the repository, you can run the setup directly with this command:
 ```bash
-sudo bash -c "$(curl -sSL https://raw.githubusercontent.com/zhrom/kaliWSL-setup/main/kali-ready.sh)"
+sudo bash -c "$(curl -sSL https://raw.githubusercontent.com/zhrom/kali-linux-WSL-setup/main/kali-ready.sh)"
 ```
 
 ## What it installs
